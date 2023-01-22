@@ -70,7 +70,7 @@ app.post("/habits", async (request) =>{
 
     return {
       possibleHabits,
-      day
+      completedHabits
     };
   });
     
